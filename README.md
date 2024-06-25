@@ -1,2 +1,9 @@
-# lucky-seven.c
-print yes ifword has 7th letter as lucky number
+ #include <stdio.h>
+int main()
+{
+ char s[10];
+ scanf("%s",s);
+ printf("%c",s[6]);
+}
+
+
